@@ -15,7 +15,7 @@ def get_random_header():
     return headers
 
 
-#'http://2017.ip138.com/ic.asp'
+#'http://2017.ip138.com/ic.asp'http://2018.ip138.com/ic.asp'
 def test_ip(ip, test_url='http://www.ip138.com/', time_out=0.1):
     """验证指定代理ip是否有效
     :param ip: 待验证的ip，ip[0]是ip，ip[1]是端口
