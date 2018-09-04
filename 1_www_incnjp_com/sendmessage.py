@@ -19,12 +19,14 @@ def sendmessage(uid):
     proxies = {'http': '125.45.87.12 :9999'}
     res=requests.post(url=tagurl,data=payload,headers=get_random_header(),proxies=proxies,cookies=cookies)
 
+    print(res.text)
 
 
 
 
 if __name__=='__main__':
-    n=1033948
-    while n>1030000:
-        sendmessage(str(n))
-        n=n-1
+    sendmessage(str(1033948))
+    # n=1033948
+    # while n>1030000:
+    #     sendmessage(str(1033948))
+    #     n=n-1
